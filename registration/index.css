@@ -1,0 +1,18 @@
+.wrapper {
+  margin: 0 auto;
+}
+
+.registration-form__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.registration-form__input {
+  width: 20%;
+}
+
+.registration-form__button {
+  padding: 1em;
+  margin: 1em;
+}

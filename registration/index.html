@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./normalize.css" />
     <link rel="stylesheet" href="./index.css" />
     <title>Registration</title>
   </head>
@@ -11,8 +12,45 @@
   <body>
     <div class="wrapper">
       <section class="registration-form">
-        <h1>Fill in the registration</h1>
-        <input type="text" />
+        <h1 class="registration-form__title">Fill in the registration</h1>
+        <form class="registration-form__container">
+          <label for="surname">Surname</label>
+          <input
+            class="registration-form__input"
+            type="text"
+            placeholder="Your last name"
+            id="surname"
+          />
+          <label for="name">Name</label>
+          <input
+            class="registration-form__input"
+            type="text"
+            placeholder="Your first name"
+            id="name"
+          />
+          <label for="email">Email</label>
+          <input
+            class="registration-form__input"
+            type="email"
+            placeholder="youremail@smth.com"
+            id="email"
+          />
+          <label for="phone">Your phone number</label>
+          <input
+            class="registration-form__input"
+            type="text"
+            placeholder="+00000000000"
+            id="phone"
+          />
+          <label for="password">Password</label>
+          <input
+            class="registration-form__input"
+            type="password"
+            placeholder="Make sure your password is a good one!"
+            id="password"
+          />
+        </form>
+        <button class="registration-form__button">Submit</button>
       </section>
     </div>
 
